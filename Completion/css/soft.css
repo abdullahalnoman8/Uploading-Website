@@ -1,0 +1,54 @@
+/* 
+    Document   : php_style
+    Created on : Feb 10, 2011, 11:46:40 AM
+    Author     : shaifur
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+.even{
+
+    background-color: #99ff66;
+}
+.odd{
+
+    background-color: #999999;
+}
+.header{
+
+    background-color: #000000;
+    color: #ffffff;
+}
+table{
+    width:100%;
+}
+td{
+
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+
+    vertical-align:middle;
+
+}
+#table_container{
+    position: relative;
+    width:50%;
+    left:25%;
+}
+#table_container h2{
+  
+}

@@ -1,0 +1,30 @@
+/* 
+    Document   : admin
+    Created on : Sep 16, 2012, 7:21:25 PM
+    Author     : Gazi_Opu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body{
+     background-color: #660099;
+     padding-left: 550px;
+     padding-top: 200px;
+     border: 2px;
+}
+
+.login{
+    width: 250px;
+    height: 150px;
+    padding-left: 8px;
+    background-image: url(../images/img06.jpg);
+    color: #00ffff;
+}

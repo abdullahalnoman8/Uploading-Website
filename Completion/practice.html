@@ -1,0 +1,76 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div>
+            <table border="5"  align="center">
+                <tr>
+                    <th colspan="2">Production</th>
+                </tr>
+                <tr>
+                    <td>Abdullah</td>
+                    <td>$5000</td>
+                </tr>
+                <tr>
+                    <td>Arpita</td>
+                    <td>$3000</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Colspan 3</th>
+                </tr>
+                <tr>
+                    <td>Potato</td>
+                    <td>$10</td>
+                    <td>tk15</td>
+                </tr>
+            </table>
+            <big>Another Table<br/></big>
+            <table border="5" align="center">
+                <tr>
+                    <th rowspan="3">Products</th>
+                </tr>
+                <tr>
+                    <td>Banana</td>
+                    <td>Apple</td>
+                    <td>Orange</td>
+                </tr>
+                <tr>
+                    <td>Pynaple</td>
+                    <td>Carrot</td>
+                    <td>Coconut</td>
+                </tr>
+            </table>
+        </div>
+        <div class="article">
+            <ol>
+                <li><a href="#">C Programming.</a> <strong style="color: red;">Upcomming</strong></li>
+                <li><a href="#"> Web Development.</a> <strong style="color: red;">Upcomming</strong></li>
+                <li><a href="#"> Web Design</a> <strong style="color: red;">Upcomming</strong></li>
+            </ol>
+        </div>   
+        <canvas id="bd" width="500px" height="300px">
+            Your browser does not support drawing with HTML.
+        </canvas>
+
+
+        <script type="text/JavaScript">
+            var sho=document.getElementById("bd");
+            var draw=sho.getContext("2d");
+            draw.fillStyle = 'green';
+            draw.fillRect(0,0,500,300);
+            var axisX=225;
+            var axisY=150;
+            var radius=100;
+            draw.arc(axisX, axisY, radius, 0, 2 * Math.PI, false);
+            draw.fillStyle = 'red';
+            draw.fill();
+        </script>
+    </body>
+</html>

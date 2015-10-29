@@ -1,0 +1,39 @@
+/* 
+    Document   : table
+    Created on : Jan 9, 2013, 1:24:33 AM
+    Author     : Gazi_Opu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#table{
+    width: 90%;
+    background-color: #330033;
+}
+h2{
+    
+   
+    font-weight: bold;
+}
+.tr{
+        background-color: #666666;
+        color: #66ccff;
+}
+.td{
+      background-color: #009999;
+      color: #000000;
+}
+.link{
+     color: #990099;
+    font-family: 'Courier New',Courier,monospace;
+    font-size: 14px;
+}

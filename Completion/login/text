@@ -1,0 +1,42 @@
+-- phpMyAdmin SQL Dump
+-- version 3.2.0.1
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Jan 26, 2013 at 11:27 AM
+-- Server version: 5.1.37
+-- PHP Version: 5.3.0
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `site_mine`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(25) NOT NULL,
+  `username` varchar(25) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `date` date NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=12 ;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `name`, `username`, `password`, `date`) VALUES
+(1, '', 'opu', '12345678', '0000-00-00'),
+(10, 'opu_gazi', 'admin', 'e10adc3949ba59abbe56e057f20f883e', '2012-12-20'),
+(4, 'nayeem gazi', 'gazi', '25d55ad283aa400af464c76d713c07ad', '2012-12-10'),
+(5, 'nahidul islam', 'nahid', '25d55ad283aa400af464c76d713c07ad', '2012-12-10'),
+(6, 'kazi abdullah', 'kazi', '25d55ad283aa400af464c76d713c07ad', '2012-12-10'),
+(7, 'backky al mamun', 'mamun', '25d55ad283aa400af464c76d713c07ad', '2012-12-10'),
+(8, 'arpita khan', 'arpita', '25d55ad283aa400af464c76d713c07ad', '2012-12-10');

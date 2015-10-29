@@ -1,0 +1,40 @@
+/* 
+    Document   : watch
+    Created on : Dec 15, 2012, 6:28:24 PM
+    Author     : Gazi_Opu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body{
+    background-color: #333333;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /*color:#9a9a9a;*/
+    font:normal 12px/1.8em Arial, Helvetica, sans-serif;
+}
+body, img{
+    width: 150px;
+    height:80px; 
+    padding-left: 20px;
+}
+#countdown{
+    font-family: 'Times New Roman',Times,serif;
+    font-weight: bold;
+    font-size: XX-large;
+    font-variant: inherit;
+    color: #009999;
+    margin: 0px;
+    padding-top: 300px;
+    width: 1300px;
+    height: 150px;
+}
